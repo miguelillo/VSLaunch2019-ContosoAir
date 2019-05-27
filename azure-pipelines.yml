@@ -37,7 +37,7 @@ steps:
     displayName: 'Copy ARM templates'
     inputs:
       SourceFolder: deployment
-      Contents: '*.json,*.PublishSettings'
+      Contents: '*.*'
       TargetFolder: '$(build.artifactstagingdirectory)/Templates'
 
   - task: PublishBuildArtifacts@1
