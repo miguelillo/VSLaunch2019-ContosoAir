@@ -3,7 +3,7 @@ const i18n = require('i18n');
 const configureI18N = (root_path) => {
     i18n.configure({
         objectNotation: true,
-        locales: ['en', 'es'],
+        locales: ['es'],
         directory: root_path + '/locales'
     });
     
